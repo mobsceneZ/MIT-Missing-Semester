@@ -31,7 +31,7 @@ logger = logging.getLogger("Sample")
 ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
 
-if len(sys.argv)> 1:
+if len(sys.argv) > 1:
     if sys.argv[1] == 'log':
         ch.setFormatter(logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s'))
     elif sys.argv[1] == 'color':
