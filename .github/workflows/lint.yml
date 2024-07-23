@@ -26,6 +26,7 @@ jobs:
         run: sudo apt install python3-proselint
 
       - name: run proselint
+        continue-on-error: true
         run: proselint *.md >suggestions.md 2>&1
 
       - name: PR commit with file
