@@ -4,11 +4,11 @@
 
 ### Exercise Entropy.01
 
-`correcthorsebatterystaple`的熵为：$ entropy = log_2(100000^4)=66.44\ bits $
+`correcthorsebatterystaple`的熵为：$entropy = log_2(100000^4)=66.44\ bits$
 
 ### Exercise Entropy.02
 
-`rg8Ql34g`的熵为：$ entropy = log_2(62^8)=47.63\ bits $
+`rg8Ql34g`的熵为：$entropy = log_2(62^8)=47.63\ bits$
 
 ### Exercise Entropy.03
 
